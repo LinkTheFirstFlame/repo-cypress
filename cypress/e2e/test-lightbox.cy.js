@@ -74,7 +74,7 @@ context('Lightbox Tests', () => {
         cy.get('[data-cy=like-count]').should('contain.text','1')
     })
     //4. Tester la supression de la mention “jaime” et la mise à jour des compteurs sur l’overlay et la lightbox
-    // it('should', () => {
-    //     //
-    // })
+    it('should', () => {
+        cy.get('[data-cy=media-overlay]').click()
+    })
 })
